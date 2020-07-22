@@ -1,7 +1,7 @@
 <?php
 namespace Braspag\API;
 
-use Braspag\API\Merchant;
+use Braspag\API\Request\BraspagRequestException;
 use Braspag\API\Request\CreateSaleRequest;
 use Braspag\API\Request\QuerySaleRequest;
 use Braspag\API\Request\UpdateSaleRequest;
