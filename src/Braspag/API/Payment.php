@@ -305,6 +305,8 @@ class Payment implements \JsonSerializable
 
     /**
      * @param mixed $debitCard
+     *
+     * @return Payment
      */
     public function setDebitCard($debitCard)
     {
